@@ -18,14 +18,14 @@ const SingleProduct = () => {
         window.scrollTo(0,0)
       },[])
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
     const increment = () => {
     if (count < 1000) {
       setCount(count + 1);
     }
   }
   const decrement = () => {
-    if (count > 0) {
+    if (count > 1) {
       setCount(count - 1);
     }
   }

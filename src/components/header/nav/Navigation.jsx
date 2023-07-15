@@ -135,12 +135,15 @@ const Navigation = () => {
               <IoIosContact className='search_icon ms-3 mob_icon' />
 
             </button>
-            <div class="dropdown-content">
+            <div class="dropdown-content dropto" style={{
+              width: "191px"
+            }}>
               <a href="#">My Account</a>
 
               <a href="#">My Wish List</a>
-
+              
               <a href="#">Sign In</a>
+              
               <a href="#">Create an Account</a>
 
             </div>

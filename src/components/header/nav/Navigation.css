@@ -64,6 +64,14 @@ background: none;
   left: 0;
 }
 
+
+.dropto {
+  position: absolute;
+  left: -160px;
+  border-bottom-width: 100%;
+}
+
+
 .dropdown-content a {
   color: #000;
   padding: 0.5rem 16px;
@@ -118,6 +126,7 @@ svg {
 
 .dropdown-content a {
   color: #000;
+
 }
 
 .navbar-toggler-icon {
